@@ -21,3 +21,4 @@ notepad <filename>
 git commit -m 'some message' <filename>
 git push
 
+# Now this should work
