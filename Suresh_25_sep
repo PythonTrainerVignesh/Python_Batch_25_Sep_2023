@@ -4,9 +4,11 @@ what is compiler ? Ans : compiler apdina ella program coding mudichathu last la 
 Date;26_9_2k23
 
 "D:" for local drive, to open the the local file 
-dir = "directory" to open the folder
-
-
+dir  = (directory) to view inside the folder   
+cd   = (change directory) to open another folder 
+more = to view all folder
+git clone = (copy the url) and paste in git clone (url)
+git commit -m = 
 
 
 
