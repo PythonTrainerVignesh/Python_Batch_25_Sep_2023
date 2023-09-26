@@ -18,7 +18,5 @@ git clone <url>
 notepad <filename>
 
 # To commit the changes to the cloud (GitHub)
-git commit -m 'some message' <filename>
+git commit -m "some message" <filename>
 git push
-
-# Now this should work
