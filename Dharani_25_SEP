@@ -2,6 +2,7 @@ Interview questions, Why python and programming?
 Python is high-level, interpreted programming language which gives set of instructions to the computer.
 Differences between the compiler and interpreter language__ Compiler is set of codes is complied together for programing, 
 interpreted is set of codes are coded line by line and easy for error findings.
+Languages consists of 1. character; 2. library; 3. syntax; 4. semantics
 DATE 26/09/2023 
 cmd promt for github
 cmd promt { drive ; dir; cd(name); git clone(url);
