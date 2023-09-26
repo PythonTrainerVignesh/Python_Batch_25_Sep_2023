@@ -3,13 +3,12 @@ PYTHON
 Git hub
 
 terminal 
-ls 
-cd desktop
+ls (list)
+cd (change directory) desktop
 cd python
 ls -l
 git clone <link>
 ls -l
 cd FILE NAME
-cat FILE NAME (
-to open the particular file to read
+cat(read files) FILE NAME (to open the particular file to read)
 
