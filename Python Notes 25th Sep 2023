@@ -1,6 +1,23 @@
-Test Notes
-Compiler
-Interpreter
+# To open the command prompt
+Click Start > Type cmd > Click Command Prompt
 
-High-level language
-Low-level language
+# To list the files and folders inside the directory in Windows OS
+dir 
+
+# To list the files and folders inside the directory in Linux/Mac
+ls -> For listing the files in a horizontal way
+ls -l -> For listing the files in a vertical order
+
+# To enter a directory (cd stands for Change Directory)
+cd <filename>
+
+# To clone a git repository
+git clone <url>
+
+# To open a file using the command prompt
+notepad <filename>
+
+# To commit the changes to the cloud (GitHub)
+git commit -m 'some message' <filename>
+git push
+
