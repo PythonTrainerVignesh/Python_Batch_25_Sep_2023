@@ -9,3 +9,5 @@ cmd promt { drive ; dir; cd(name); git clone(url);
 DIR - directory 
 cd : change directory
 git clone : download into system
+more/ cat : read a file
+cls : to clear
