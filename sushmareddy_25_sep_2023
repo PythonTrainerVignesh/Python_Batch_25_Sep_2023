@@ -9,3 +9,7 @@ command prompt for git hub
 dir=directory
 git clone,in that clone means copy
 cd=change directory
+git pull means git update in the system
+git push to download to cloud through notepad
+git commit-m "some message"<file name>
+to commit the changes in the cloud
