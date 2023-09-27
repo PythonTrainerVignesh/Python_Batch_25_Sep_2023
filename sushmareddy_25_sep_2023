@@ -5,11 +5,11 @@ python is ahigh level language
  intrepretar will check if any error in line to line
  in any language we want to learn basic like alpha,words or dictionary,syntax or grammar,sementics and tense.
 TODAY:26/9/2023
-command prompt for git hub
-dir=directory
-git clone,in that clone means copy
-cd=change directory
-git pull means git update in the system
-git push to download to cloud through notepad
-git commit-m "some message"<file name>
+to open command prompt go to search button and type cmd(cmd:command prompt)
+to open files and folders in windows os use dir in linux we want to use li->horizontal line,li-1->vertical line.
+git clone,in that clone means copy of the target,git command line which is used to create an existing repository and create clone.
+in windows want to open directory files use (cd=combined directory)
+git pull means git update in the system,it copies the modified files to the local machines and used to fetch and download content from remote repository.
+git push to download to cloud through notepad,and it used to upload local repository content  to remote repository
+git commit-m "some message"<file name>,to add git message to commityou use git command follow by the-m flagand msg in "".
 to commit the changes in the cloud
