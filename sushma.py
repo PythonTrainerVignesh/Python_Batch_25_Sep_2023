@@ -3,7 +3,7 @@ print("hello world!")
 #string(""or'')
 #int(whole numbers)
 #decimal(5.0,9.6)
-boolean(true,false)
+#boolean(true,false)
 
 print("dhaivik ","raja")
 print(3*4*5)
