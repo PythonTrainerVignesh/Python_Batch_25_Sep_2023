@@ -13,3 +13,5 @@ cd FILE NAME
 cat (read files) FILE NAME (to open the particular file to read in MAC)
 more (read files) FILE NAME (to open the particular file to read in WINDOWS)
 
+
+
