@@ -20,3 +20,7 @@ notepad <filename>
 # To commit the changes to the cloud (GitHub)
 git commit -m "some message" <filename>
 git push
+
+
+# To download all the changes and update the local repository
+git pull
