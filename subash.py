@@ -4,6 +4,7 @@
 #float(decimal 5.6 22.33)
 #boolean(true or flase)
 print("HELLO WORLD")
+print(int(25+25))
 print ('99+34')
 print("8-8")
 print(9.2)
