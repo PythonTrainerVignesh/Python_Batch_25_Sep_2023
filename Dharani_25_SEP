@@ -15,5 +15,12 @@ cd : change directory
 git clone : download into system
 more/ cat : read a file
 cls : to clear
+
 For linux users
-use 
+use ls (files in horizontal) 
+use ls-I (files in vertical)
+
+notepad <filename> (open the file) 
+git commit -m "some message" <filename> {change data in the file}
+git push {git update in the cloud}
+git pull {git update in the system}
