@@ -18,3 +18,16 @@ git push to download to cloud through notepad,and it used to upload local reposi
 git commit-m "some message"<file name>,to add git message to commityou use git command follow by the-m flagand msg in "".
 to commit the changes in the cloud
 cls to clear command prompt
+
+TODAY:27/9/2023
+
+#DATA TYPES
+#string(""or'')
+#int(whole numbers)
+#decimal(5.0,9.6)
+boolean(true,false)
+
+print("dhaivik ","raja")
+print(3*4*5)
+print(321*5)
+print(10<6,6>2)

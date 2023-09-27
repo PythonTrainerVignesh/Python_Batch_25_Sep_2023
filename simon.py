@@ -1,3 +1,12 @@
+#data types
+#string(either inside "" or '')
+#int(number)
+#float(decimal 5.6 22.33)
+#boolean(true or flase)
 print("HELLO WORLD")
-a
-b
+print ('99+34')
+print("8-8")
+print(9.2)
+print(2<3)
+print(2<3)
+print("END")
