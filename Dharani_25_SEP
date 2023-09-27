@@ -3,7 +3,11 @@ Python is high-level, interpreted programming language which gives set of instru
 Differences between the compiler and interpreter language__ Compiler is set of codes is complied together for programing, 
 interpreted is set of codes are coded line by line and easy for error findings.
 Languages consists of 1. character; 2. library; 3. syntax; 4. semantics
+
+
 DATE 26/09/2023 
+
+
 cmd promt for github
 cmd promt { drive ; dir; cd(name); git clone(url);
 DIR - directory 
@@ -11,3 +15,5 @@ cd : change directory
 git clone : download into system
 more/ cat : read a file
 cls : to clear
+For linux users
+use 
