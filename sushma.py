@@ -22,3 +22,13 @@ TODAY:28/9/2023
 #print(321+456+754)
 #print(990*4)
 #print(465<798,956>456)
+
+#in print("hello world")print is function,it must have open and close paranthesis("")
+#positional argument we can use(,)
+#key word arguments are two types
+#sep("one","two","three")
+#end(***)
+#we can use sep\n at a time,and also end.
+#\t means tab space it will give much gap
+#\escape character this is wont visible
+#(\n)add new line
