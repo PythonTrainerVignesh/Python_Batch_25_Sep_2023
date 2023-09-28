@@ -22,3 +22,9 @@ TODAY:28/9/2023
 #print(321+456+754)
 #print(990*4)
 #print(465<798,956>456)
+
+#positional argument,python we cane use,
+#keyword argument,separate,end
+#print is function
+\n means new line
+we can add both sep,\n  directly.
