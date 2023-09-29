@@ -7,4 +7,7 @@ print("\"I'm\" \n\"\"Learning\"\" \n\"\"\"Python\"\"\"")
 
 
 
-print("no","one","change",sep="\t \n")
+print("no","one","change",sep="\n")
+
+
+print("\"i'm\"","\"\"a\"\"","\"\"\"fan\"\"\"","\"\"\"\"of\"\"\"\"","\"\"\"\"\"ronaldo\"\"\"\"\"" ,sep="\n")
