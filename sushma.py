@@ -37,6 +37,7 @@ TODAY:28/9/2023
 #positional argument,python we cane use,
 #keyword argument,separate,end
 #print is function
-\n means new line
-we can add both sep,\n  directly.
->>>>>>> f02d6e04b4b66b3d7f406ee74dc8880082a313de
+#\n means new line
+#we can add both sep,\n  directly.
+#we can use end ,sep at a time.
+#to open python coding in cmd we want to type python<filename>
