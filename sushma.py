@@ -33,8 +33,19 @@ print(465<798,956>456)
 #\t means tab space it will give much gap
 #\escape character this is wont visible
 #(\n)add new line
+<<<<<<< HEAD
 print("programming","essentials","in", sep='***', end='')
 print("...python") 
 print("\"I'm\" \n\"\"learning\"\" \n\"\"\"python\"\"\"")
 print("one","two","three", sep="\n")
 print("\"I\"","\"\"\"have\"\"\"","\"\"completed\"\"","\"\"\"degree\"\"\"", sep="\n")
+=======
+=======
+#positional argument,python we cane use,
+#keyword argument,separate,end
+#print is function
+#\n means new line
+#we can add both sep,\n  directly.
+#we can use end ,sep at a time.
+#to open python coding in cmd we want to type python<filename>
+>>>>>>> f5bf73a725c0120335898f6f6de7a0c40db76932
