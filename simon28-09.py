@@ -4,3 +4,7 @@ print("python")
 
 
 print("\"I'm\" \n\"\"Learning\"\" \n\"\"\"Python\"\"\"")
+
+
+
+print("no","one","change",sep="\t \n")
