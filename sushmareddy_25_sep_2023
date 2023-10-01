@@ -31,3 +31,11 @@ print("dhaivik ","raja")
 print(3*4*5)
 print(321*5)
 print(10<6,6>2)
+
+TODAY:1/10/23
+PYTHON DATA TYPES
+it has numeric=integer,float,complex number
+dictionary
+boolean(true,false)
+set{}
+sequence type=strings,tuple,list
