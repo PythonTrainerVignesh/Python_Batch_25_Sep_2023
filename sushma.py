@@ -31,6 +31,27 @@ print(465<798,956>456)
 #end(***)
 #we can use sep\n at a time,and also end.
 
+#\t means tab space it will give much gap
+#\escape character this is wont visible
+#(\n)add new line
+<<<<<<< HEAD
+print("programming","essentials","in", sep='***', end='')
+print("...python") 
+print("\"I'm\" \n\"\"learning\"\" \n\"\"\"python\"\"\"")
+print("one","two","three", sep="\n")
+print("\"I\"","\"\"\"have\"\"\"","\"\"completed\"\"","\"\"\"degree\"\"\"", sep="\n")
+=======
+=======
+#positional argument,python we cane use,
+#keyword argument,separate,end
+#print is function
+#\n means new line
+#we can add both sep,\n  directly.
+#we can use end ,sep at a time.
+#to open python coding in cmd we want to type python<filename>
+>>>>>>> f5bf73a725c0120335898f6f6de7a0c40db76932
+
+
 TODAY:1/10/23
 #in python data types it has numeric=integer,float,complex numbers
 #it has dictionary
@@ -66,24 +87,3 @@ x = {"trees", "fruits", "flowers"}
 #data type output:boolean
 x = 'True'
 
-
-
-#\t means tab space it will give much gap
-#\escape character this is wont visible
-#(\n)add new line
-<<<<<<< HEAD
-print("programming","essentials","in", sep='***', end='')
-print("...python") 
-print("\"I'm\" \n\"\"learning\"\" \n\"\"\"python\"\"\"")
-print("one","two","three", sep="\n")
-print("\"I\"","\"\"\"have\"\"\"","\"\"completed\"\"","\"\"\"degree\"\"\"", sep="\n")
-=======
-=======
-#positional argument,python we cane use,
-#keyword argument,separate,end
-#print is function
-#\n means new line
-#we can add both sep,\n  directly.
-#we can use end ,sep at a time.
-#to open python coding in cmd we want to type python<filename>
->>>>>>> f5bf73a725c0120335898f6f6de7a0c40db76932
