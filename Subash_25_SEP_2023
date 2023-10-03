@@ -1,5 +1,6 @@
 
 PYTHON
+  Python is a line by line Interpreter language
 Git hub
 
 terminal 
@@ -13,6 +14,13 @@ cd FILE NAME
 cat (read files) FILE NAME (to open the particular file to read in MAC)
 more (read files) FILE NAME (to open the particular file to read in WINDOWS)
 
+###
 
+IDE - Intergrated development environment
+
+###
+
+ (python enhancement proposals) 
+PEP 8 - format we r using for style guidelineS for PYTHON
 
 

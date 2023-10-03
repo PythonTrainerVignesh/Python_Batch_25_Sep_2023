@@ -39,3 +39,15 @@ dictionary
 boolean(true,false)
 set{}
 sequence type=strings,tuple,list
+
+#in python ide means integrated development enviorment,it integrate files and folders
+#pep 8-style guide for python code
+#pep means python enchancement proposals
+
+#python modules
+#python will come during installation
+#own repository
+#3rd party like git hub
+
+#positional arguments&key word arguments
+#print("hello world")print is function hello world is positional argument
