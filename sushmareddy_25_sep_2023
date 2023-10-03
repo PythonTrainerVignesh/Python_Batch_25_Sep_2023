@@ -48,3 +48,6 @@ sequence type=strings,tuple,list
 #python will come during installation
 #own repository
 #3rd party like git hub
+
+#positional arguments&key word arguments
+#print("hello world")print is function hello world is positional argument
