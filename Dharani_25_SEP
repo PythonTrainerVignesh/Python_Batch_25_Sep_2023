@@ -24,3 +24,14 @@ notepad <filename> (open the file)
 git commit -m "some message" <filename> {change data in the file}
 git push {git update in the cloud}
 git pull {git update in the system}
+
+
+
+DATE: 03/10/23
+
+
+IDE: Integrated development Environment
+it is software for using in multiple 
+() called parenthesis
+PEP 8 is a guidelines for the python
+Full form : Python Enhancement Proposal
