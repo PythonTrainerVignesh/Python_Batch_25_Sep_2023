@@ -15,3 +15,4 @@ print("\"i'm\"","\"\"a\"\"","\"\"\"fan\"\"\"","\"\"\"\"of\"\"\"\"","\"\"\"\"\"ro
 print(3+3,"b","c",sep=" ")
 print("Ronaldo Great Of All Time \n Goat Cr7",end=" ")
 print ("07")
+print ("aa\na")
