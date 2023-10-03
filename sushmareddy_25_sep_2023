@@ -43,6 +43,8 @@ sequence type=strings,tuple,list
 #in python ide means integrated development enviorment,it integrate files and folders
 #pep 8-style guide for python code
 #pep means python enchancement proposals
+
+#python modules
 #python will come during installation
 #own repository
 #3rd party like git hub
