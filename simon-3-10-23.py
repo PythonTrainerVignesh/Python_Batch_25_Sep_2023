@@ -11,10 +11,18 @@
 # python data types
 # 1.sting ()ch
 # 1.1 print('')
-# 1.2 print("")
+# 1.2 print("""")
 
-# positional argument
+# positional argument using (,) in between charcter
 print ('hello','simon')
+# escape character(\)
+# keyword argument
+print("hello","world",sep=" ")
+print("hello","world",end=" ")
+print("hello","world",sep=" ",end=" ")
+
+
+
 print(10+10)
 print("python\tclass")
 
