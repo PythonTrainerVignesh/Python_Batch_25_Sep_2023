@@ -39,3 +39,6 @@ dictionary
 boolean(true,false)
 set{}
 sequence type=strings,tuple,list
+
+#in python ide means integrated development enviorment,it integrate files and folders
+#
