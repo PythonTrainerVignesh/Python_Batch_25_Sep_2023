@@ -49,10 +49,9 @@ print("\"I\"","\"\"\"have\"\"\"","\"\"completed\"\"","\"\"\"degree\"\"\"", sep="
 #we can add both sep,\n  directly.
 #we can use end ,sep at a time.
 #to open python coding in cmd we want to type python<filename>
-<<<<<<< HEAD
-=======
->>>>>>> f5bf73a725c0120335898f6f6de7a0c40db76932
->>>>>>> 556019b63fdf64cecdf5f7f3989a98c33a9b739d
+
+
+
 
 
 TODAY:1/10/23
@@ -90,7 +89,7 @@ x = {"trees", "fruits", "flowers"}
 #data type output:boolean
 x = 'True'
 
-<<<<<<< HEAD
+
 TODAY:2/10/23
 #python list using []
 var = ["table", "books", "pen"]
@@ -114,8 +113,3 @@ print(Tuple1)
 #python dictionary example
 Dict = {1: 'Geeks' , 2: 'For' , 3: 'Geeks'}
 print(Dict)
-
-
-
-=======
->>>>>>> 556019b63fdf64cecdf5f7f3989a98c33a9b739d
