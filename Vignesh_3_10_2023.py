@@ -63,6 +63,7 @@ print(8 < 8)  # less than
 print(8 <= 8)  # Less than or equal to
 print(8 >= 8)  # Greater than or equal to
 print(8 != 8)  # Not Equal to
+
 print(8 == 8)  # Similar
 
 # BOD-MAS Rule
