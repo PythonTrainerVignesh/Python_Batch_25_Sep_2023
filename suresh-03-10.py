@@ -14,7 +14,6 @@ print("Hello World")
 # print("3 5 5") <-- it also consider as string
 
 
-
 # Positional Arguments
 
 # "string" pakkathula comma ( , ) iruntha consider as a "positional argument"
@@ -37,7 +36,7 @@ print('Ending')
 # 2. Integer means number
 # int
 # int la words multiplication pannalam, but words multiplication thavira vera maths panna mudiyathu
-print(50+5)
+print(50 + 5)
 print("ronaldo" * 5)
 
 # 3. Floating Point Integer
@@ -51,10 +50,10 @@ print(True)
 print(False)
 
 # Python Operators (7) vs Comparison Operators (6)
-print(8 + 8)   # Addition
-print(8 - 8)   # Subtraction
-print(8 / 8)   # Division (The answer will always be in Float)
-print(8 * 8)   # Multiplication
-print(8 % 3)   # Modulus - Remainder
+print(8 + 8)  # Addition
+print(8 - 8)  # Subtraction
+print(8 / 8)  # Division (The answer will always be in Float)
+print(8 * 8)  # Multiplication
+print(8 % 3)  # Modulus - Remainder
 print(8 ** 3)  # Power/Exponential
-print(10 // 8) # Floor Division
+print(10 // 8)  # Floor Division
