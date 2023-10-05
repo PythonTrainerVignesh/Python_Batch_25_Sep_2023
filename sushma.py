@@ -42,18 +42,6 @@ print("one","two","three", sep="\n")
 print("\"I\"","\"\"\"have\"\"\"","\"\"completed\"\"","\"\"\"degree\"\"\"", sep="\n")
 
 
-#positional argument,python we cane use,
-#keyword argument,separate,end
-#print is function
-#\n means new line
-#we can add both sep,\n  directly.
-#we can use end ,sep at a time.
-#to open python coding in cmd we want to type python<filename>
-
-
-
-
-
 TODAY:1/10/23
 #in python data types it has numeric=integer,float,complex numbers
 #it has dictionary
