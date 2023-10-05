@@ -61,3 +61,22 @@ print(10.23)
 print(2 + 3 - 2 * 4 / 4 - (33 / 5 * 4))
 print(2 % 2 % 2)
 print(2 * 4 % 5)
+
+
+
+Jhon = 3
+Mary = 5
+adam = 6
+total_apples = Jhon+Mary+adam
+print("Total number of apples:",total_apples)
+
+miles = 50
+kilometers = 20
+miles_to_kilometer = miles * 1.61
+kilometer_to_miles = kilometers / 1.61
+
+print (50,"miles is", miles_to_kilometer ,"kilometers")
+
+
+
+
