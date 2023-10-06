@@ -22,7 +22,7 @@ name= "jackie"
 age= "48"
 city= "England"
 
-print("Name:", name, "Age:", age, "City:", city, sep=" | ", end="\n\n")
+print("Name: " + name, "Age: " + age, "City: " + city, sep=" | ", end="\n\n")
 
 
 # Another one

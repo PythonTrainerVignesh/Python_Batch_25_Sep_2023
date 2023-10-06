@@ -5,7 +5,7 @@ print(4*4)
 print(4/23)
 print(34.43)
 print(32>34)
-print(22<22)
+print(22<22 ,end=" ")
 print("the end")
 
 
