@@ -59,7 +59,7 @@ print(10.23)
 
 # bodmas rule
 print(2 + 3 - 2 * 4 / 4 - (33 / 5 * 4))
-print(2 % 2 % 2)
+print(9 % 7 % 2)
 print(2 * 4 % 5)
 
 
@@ -85,5 +85,12 @@ done = 1.61
 miles_to_kilometer = miles * done
 kilometer_to_miles = kilometers / done
 print(6.45,"miles is",round(miles_to_kilometer ,3),"kilometers")
-print(f"{kilometers} kilometers is" (round(kilometer_to_miles),3 ,"miles"))
 
+
+
+
+print((3*(-1.)**3 )- (2*(-1.)**2) + (3*(-1.)- 1))
+
+
+x = (1/(10+1/(10+1/(10+1/10))))
+print("y =",x)
