@@ -43,7 +43,7 @@ print(f"End Time:- {end_hour}:{end_minute}", end="\n\n")
 
 # next one
 
-n = 101
-result = n >= 100
+n = 250
+result = 100 <= n <= 200
 print(result)
 
