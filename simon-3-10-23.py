@@ -79,4 +79,11 @@ print (50,"miles is", miles_to_kilometer ,"kilometers")
 
 
 
+miles = 6.45
+kilometers = 10.67
+done = 1.61
+miles_to_kilometer = miles * done
+kilometer_to_miles = kilometers / done
+print(6.45,"miles is",round(miles_to_kilometer ,3),"kilometers")
+print(f"{kilometers} kilometers is" (round(kilometer_to_miles),3 ,"miles"))
 
