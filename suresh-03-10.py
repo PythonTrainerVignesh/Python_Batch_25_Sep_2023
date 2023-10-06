@@ -92,5 +92,11 @@ print(f"{kilometers} kilometers is {kilometers_to_miles} miles")
 
 x=(3*(0.)**3)-(2*(0.)**2)+(3*(0.)-1)
 print("y=",x)
+
 x=1/(100+1/(100+1/(100+1/100)))
 print("y=",x)
+
+n=55
+print(55>=100)
+print(99>=100)
+print(160>=100)
