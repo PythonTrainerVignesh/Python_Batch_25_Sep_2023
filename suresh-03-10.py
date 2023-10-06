@@ -57,3 +57,40 @@ print(8 * 8)    # Multiplication
 print(8 % 3)    # Modulus - Remainder
 print(8 ** 3)   # Power/Exponential
 print(10 // 8)  # Floor Division
+
+# Comparison Operators (6)
+print(8 > 8)  # greater than
+print(8 < 8)  # less than
+print(8 <= 8)  # Less than or equal to
+print(8 >= 8)  # Greater than or equal to
+print(8 != 8)  # Not Equal to
+print(8 == 8)  # Similar
+
+# BOD-MAS Rule
+print(2+5-5*2/8-(85/3*5))
+print(85/3*5)
+print(9 % 6 % 2)
+print(2 * 3 % 5)
+print((7 % -4), (2 % 9), (2 ** 3 ** 2))
+a = list(range(-4, 9))
+
+john = 3
+mary = 5
+adam = 6
+total_apples= john+mary+adam
+print("total numbers of apple:",total_apples)
+
+miles = 7.38
+kilometers = 12.25
+conversion_value = 1.61
+
+miles_to_kilometers = round(miles * conversion_value, 2)
+kilometers_to_miles = round(kilometers / conversion_value, 2)
+
+print(f"{miles} miles is {miles_to_kilometers} kilometers")
+print(f"{kilometers} kilometers is {kilometers_to_miles} miles")
+
+x=(3*(0.)**3)-(2*(0.)**2)+(3*(0.)-1)
+print("y=",x)
+x=1/(100+1/(100+1/(100+1/100)))
+print("y=",x)
