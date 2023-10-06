@@ -100,3 +100,16 @@ n=55
 print(n>=100)
 n = 101
 print(n>=100)
+
+y = ((3*(1.)**3)-(2*(1.)**2)+(3*(1.)-1))
+print("y =",y)
+x=10
+x =6
+print("y =",x)
+
+n=10
+print(n<=100)
+
+start hour = 12
+start minute = 17
+duration = 59
