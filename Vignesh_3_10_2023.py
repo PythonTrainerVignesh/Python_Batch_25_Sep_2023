@@ -99,3 +99,21 @@ print(x, y)
 names = ['False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else',
          'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or',
          'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
+miles = 7.38
+kilometers = 12.25
+conversion_value = 1.61
+
+miles_to_kilometers = round(miles * conversion_value, 2)
+kilometers_to_miles = round(kilometers / conversion_value, 2)
+
+print(f"{miles} miles is {miles_to_kilometers} kilometers")
+print(f"{kilometers} kilometers is {kilometers_to_miles} miles")
+
+
+
+
+
+
+
+
