@@ -16,13 +16,7 @@ print(round(kilometers_to_miles))
 print(f"{miles} miles is {round(miles_to_kilometers, 2)} kilometers")
 print(f"{kilometers} kilometers is {round(kilometers,2)} miles")
 
-x = 0
-x = 1
-x = -1
-y = -1.0
-y = 3.0
-y = -9.0
-y
+
 
 
 
