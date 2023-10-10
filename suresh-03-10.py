@@ -61,7 +61,7 @@ print(10 // 8)  # Floor Division
 # Comparison Operators (6)
 print(8 > 8)  # greater than
 print(8 < 8)  # less than
-print(8 <= 8)  # Less than or equal to
+print(8 <= 8)  # Less than or equial to
 print(8 >= 8)  # Greater than or equal to
 print(8 != 8)  # Not Equal to
 print(8 == 8)  # Similar
@@ -69,8 +69,8 @@ print(8 == 8)  # Similar
 # BOD-MAS Rule
 print(2+5-5*2/8-(85/3*5))
 print(85/3*5)
-print(9 % 6 % 2)
-print(2 * 3 % 5)
+print(9 % 6 % 2) #right to left
+print(2 * 3 % 5) #left to right
 print((7 % -4), (2 % 9), (2 ** 3 ** 2))
 a = list(range(-4, 9))
 
@@ -100,3 +100,38 @@ n=55
 print(55>=100)
 print(99>=100)
 print(160>=100)
+print(3>2)
+
+x=-1
+y=(3*(x)**3)-(2*(x)**2)+(3*(x)-1)
+print("y =",y)
+
+x=1
+y=1/(x+1/(x+1/(x+1/x)))
+print("y =",y)
+
+h=12
+m=17
+r=59
+a=m+r
+b=76
+print(76%60)
+
+
+dc=49.7
+print(round(dc*(9/5)+32,2))
+
+
+start_hour=23
+start_minutes=58
+duration=642
+minutresult=(start_minutes+duration)%60
+hoursresult=((((start_hour*60)+start_minutes+duration)//60)%24)
+print(f"the event will end on {hoursresult}:{minutresult}")
+
+start_hour=int(input("event start hour : "))
+start_minutes=int(input("event start minute : "))
+duration=int(input("given duration : "))
+minutresult=((start_minutes+duration)%60)
+hoursresult=(((start_hour+duration)//60+start_hour)%24)
+print(f"the event will end on {hoursresult}:{minutresult}")
