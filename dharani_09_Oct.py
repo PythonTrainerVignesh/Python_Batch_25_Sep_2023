@@ -74,3 +74,4 @@ number = int(input('Enter a number: '))
 Even_number = (number % 2 == 0)
 
 print(f"The given number {number} is even: {Even_number}")
+
