@@ -135,3 +135,10 @@ dur = int(input("event duration:"))
 endhour = (hour*60+min+dur)//60%24
 endmin = ((min + dur)%60)
 print("event end time is ",endhour,":",endmin)
+
+
+age= int(input("enter your age :"))
+if age <=18:
+    print(f"{age}your not eligible to vote" )
+else:
+    print(f"{age}your eligible to vote")
