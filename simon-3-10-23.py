@@ -59,7 +59,7 @@ print(10.23)
 
 # bodmas rule
 print(2 + 3 - 2 * 4 / 4 - (33 / 5 * 4))
-print(2 % 2 % 2)
+print(9 % 7 % 2)
 print(2 * 4 % 5)
 
 
@@ -79,4 +79,66 @@ print (50,"miles is", miles_to_kilometer ,"kilometers")
 
 
 
+miles = 6.45
+kilometers = 10.67
+done = 1.61
+miles_to_kilometer = miles * done
+kilometer_to_miles = kilometers / done
+print(6.45,"miles is",round(miles_to_kilometer ,3),"kilometers")
 
+
+
+
+x =((3*(-1.)**3 )- (2*(-1.)**2) + (3*(-1.)- 1))
+print("y =",x)
+
+x = (1/(10+1/(10+1/(10+1/10))))
+print("y =",x)
+
+
+n=55
+print(n>=100)
+n = 101
+print(n>=100)
+
+y = ((3*(1.)**3)-(2*(1.)**2)+(3*(1.)-1))
+print("y =",y)
+x=10
+x =6
+print("y =",x)
+
+n=10
+print(n<=100)
+
+
+
+
+cel = 48.9
+fah = 110.5
+celsius =(48.9*9/5)+32
+print(celsius )
+fahrenheit = (110-32)*5/9
+print (round(fahrenheit,2))
+
+x = 1.
+n = ((3*(x)**3)-(2*(x)**2)+(3*(x))-1)
+print("y =",n)
+
+#x = input("x value is:")
+a = ((3*(float(x))**3)-(2*(float(x))**2)+(3*(float(x)))-1)
+print(a)
+
+
+hour = int(input("start time: "))
+min = int(input("start min:"))
+dur = int(input("event duration:"))
+endhour = (hour*60+min+dur)//60%24
+endmin = ((min + dur)%60)
+print("event end time is ",endhour,":",endmin)
+
+
+age= int(input("enter your age :"))
+if age <=18:
+    print(f"{age}your not eligible to vote" )
+else:
+    print(f"{age}your eligible to vote")
