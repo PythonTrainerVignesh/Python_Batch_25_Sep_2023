@@ -110,6 +110,35 @@ print("y =",x)
 n=10
 print(n<=100)
 
-start hour = 12
-start minute = 17
-duration = 59
+
+
+
+cel = 48.9
+fah = 110.5
+celsius =(48.9*9/5)+32
+print(celsius )
+fahrenheit = (110-32)*5/9
+print (round(fahrenheit,2))
+
+x = 1.
+n = ((3*(x)**3)-(2*(x)**2)+(3*(x))-1)
+print("y =",n)
+
+#x = input("x value is:")
+a = ((3*(float(x))**3)-(2*(float(x))**2)+(3*(float(x)))-1)
+print(a)
+
+
+hour = int(input("start time: "))
+min = int(input("start min:"))
+dur = int(input("event duration:"))
+endhour = (hour*60+min+dur)//60%24
+endmin = ((min + dur)%60)
+print("event end time is ",endhour,":",endmin)
+
+
+age= int(input("enter your age :"))
+if age <=18:
+    print(f"{age}your not eligible to vote" )
+else:
+    print(f"{age}your eligible to vote")
