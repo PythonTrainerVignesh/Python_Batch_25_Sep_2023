@@ -11,21 +11,19 @@ kilometer =12.25
 
 
 miles_to_kilometers = miles*1.61
-kilometers_to_miles = kilometers/7.38
-print(round(kilometers_to_miles))
+kilometers_to_miles = kilometer/7.38
 print(f"{miles} miles is {round(miles_to_kilometers, 2)} kilometers")
-print(f"{kilometers} kilometers is {round(kilometers,2)} miles")
+print(f"{kilometer} kilometers is {round(kilometer, 2)} miles")
 
-x = 0
-x = 1
-x = -1
-y = -1.0
-y = 3.0
-y = -9.0
-y
+x = 0.0
+print((3*(x*x*x)-2*(x*x)+(3*x)-1))
 
-
-
+celsius = 48.9
+fahrenheit = 110.5
+celsius_to_fahrenheit = (celsius * 9/5) + 32
+fahrenheit_to_celsius = (fahrenheit - 32)*5/9
+print(f"{celsius} celsius is {round(celsius_to_fahrenheit,2)} fahrenheit")
+print(f"{fahrenheit} fahrenheit is {round(fahrenheit_to_celsius,2)} celsius", end='\n\n')
 
 
 

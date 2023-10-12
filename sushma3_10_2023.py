@@ -14,7 +14,7 @@ print("python\nbatch")
 print("python\tbatch")
 
 #positional argument
-print('hello','world',4, 7, 44.4, (6 + 7), true, false, (1 - 0)
+print('hello','world',4, 7, 44.4, (6 + 7), True, False, (1 - 0))
 #escape character(\)
 print('I\'m', 'learning', 'python')
 print()
@@ -54,11 +54,11 @@ print(8 ** 8) # power/expotential
 print(10 // 8) # floor division
 
 #comparsion operators(6)
-print(8 > 8) #greater than
-print(8 < 8) #less than
-print(8 >= 8) #greater than or equal to
-print(8 <= 8) #less than or equal to
-print(8 != 8)  #not equal to
- print(8 == 8) #similar     
+print(8 > 8)  # greater than
+print(8 < 8)  # less than
+print(8 >= 8)  # greater than or equal to
+print(8 <= 8)  # less than or equal to
+print(8 != 8)  # not equal to
+print(8 == 8)  # similar
       
       

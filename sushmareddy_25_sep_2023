@@ -1,7 +1,7 @@
 python is a programming language
-python is ahigh level language
+python is a high level language
  we want to give instruction to computer or any software to run program
- compiler will compile all excetuablefiles in one file
+ compiler will compile all 'excetuable' files in one file
  intrepretar will check if any error in line to line
  in any language we want to learn basic like alpha,words or dictionary,syntax or grammar,sementics and tense.
 
@@ -15,7 +15,7 @@ git clone,in that clone means copy of the target,git command line which is used 
 in windows want to open directory files use (cd=change directory)
 git pull means git update in the system,it copies the modified files to the local machines and used to fetch and download content from remote repository.
 git push to download to cloud through notepad,and it used to upload local repository content  to remote repository
-git commit-m "some message"<file name>,to add git message to commityou use git command follow by the-m flagand msg in "".
+git commit-m "some message"<file name>,to add git message to commit you use git command follow by the-m flagand msg in "".
 to commit the changes in the cloud
 cls to clear command prompt
 

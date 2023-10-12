@@ -12,10 +12,11 @@ print(n >= 100, end="\n\n")
 
 
 given_hour = 23
-given_minutes = 58
+given_minutes = 59
 duration = 642
 
 end_hour = (given_hour + (given_minutes + duration)// 60) % 24
 end_minutes = (given_minutes + duration) % 60
 print(f"End Time {end_hour}:{end_minutes}")
+
 
