@@ -132,3 +132,13 @@ if age.isdigit():
 else:
     print('Invalid input.')
 
+
+# Find average of 5 nos
+count = 0
+average = 0
+while count < 5:
+    count = count + 1
+    no = int(input(f'{count}: Enter no: '))
+    average = average + no
+print(average // 5)
+
