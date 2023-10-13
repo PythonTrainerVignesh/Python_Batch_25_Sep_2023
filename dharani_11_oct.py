@@ -41,6 +41,8 @@
 #
 # plant_name = input("Enter the name of the plant: ")
 #
+# # next one
+#
 # if plant_name == "Spathiphyllum":
 #     print("Yes - Spathiphyllum is the best plant ever!")
 # elif plant_name == "spathiphyllum":
@@ -48,12 +50,87 @@
 # else:
 #     print(f"Spathiphyllum! Not {plant_name}!")
 
-income = float(input("Enter your income in thalers: "))
+# Income calculation:
+#
+# income = float(input("Enter your income in thalers: "))
+#
+# if income <= 85528:
+#     PIT = (0.18 * income - 556.02)  # let 1 thalers = 100 cents
+#
+#     if PIT <= 0:
+#         PI = 0.0
+#         print(f"The calculated personal income tax(PIT) is: {round(PI, 1)} thalers")
+#     else:
+#         print(f"The calculated personal income tax(PIT) is: {round(PIT, 1)} thalers")
+# else:
+#     overdue = income - 85528
+#     tax = 14839.02 + 0.32 * overdue
+#     print(f"The calculated personal income tax(PIT) is: {round(tax,1)} thalers")
 
-if income <= 85528:
-    PIT = max((0.18 * income - 556.02), 0.0)  # let 1 thalers = 100 cents
-    print(f"The calculated personal income tax(PIT) is: {round(PIT,1)} thalers")
-else:
-    overdue = income - 85528
-    tax = max((14839.02 + 0.32 * overdue), 0.0)
-    print(f"The calculated personal income tax(PIT) is: {round(tax,1)} thalers")
+
+# # DATE: 12/10/23:
+# # Today's class is about the loops:
+# # There are two loops. they are 1.While loop & 2.For loop.
+# # syntax:: while True: __________ break.
+
+# WHILE LOOP:
+# x = 0
+# y = 0
+# while True:
+#     x = x + 2
+#     y = y + 1
+#     if x > 20:
+#         break
+#     else:
+#         print(f"2 * {y} ={x}")
+#
+# result = 0
+# while True:
+#     result = result + 1
+#     if result > 20:
+#         break
+#     else:
+#         print(f"2 * {result} = {result * 5}")
+#
+# # next
+# num = 0
+# while True:
+#     num = num + 2
+#     if num > 100:
+#         break
+#     else:
+#         print(f"{num}", end=", ")
+
+# next one
+# while True:
+#     username = input("Enter your username: ")
+#     if username == 'admin':
+#         password = input("Enter your password: ")
+#         if password == "admin":
+#             print("Login successfully.")
+#             break
+#         else:
+#             print("Incorrect password. Please try again.")
+#     else:
+#         print("Incorrect username. Please try again.")
+#
+# # next one:
+# num = 11
+# while True:
+#     num = num - 1
+#     if num <= 0:
+#         break
+#     else:
+#         print(f"{num}", end=", ")
+
+# next one
+
+start = int(input("Enter a number to start: "))
+stop = int(input("Enter a number to stop: "))
+while True:
+    #    print(start, end=', ')
+    start = start - 1
+    if start <= stop:
+        break
+    else:
+        print(start, end=', ')
