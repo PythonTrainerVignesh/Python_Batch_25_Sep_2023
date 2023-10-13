@@ -50,10 +50,12 @@ if name == 'Spathiphyllum':
 elif name == 'spathiphyllum':
     print("No,I want a big spathiphyllum:")
 else:
-    print("spathiphyllum! Not[name]!")
+    print("spathiphyllum! Not",'name',"!")
 
 income = float(input("enter you income:"))
 if income <= 85528:
     tax = income * (18/100)- 556.02
 else:
-      income-85528
+    overdue = income - 85528
+    tax = max((14))
+
