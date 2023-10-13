@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 x = 0.0
 print((3*(x*x*x)-2*(x*x)+(3*x)-1), end="\n\n")
 
@@ -21,7 +21,6 @@ end_minutes = (given_minutes + duration) % 60
 print(f"End Time {end_hour}:{end_minutes}")
 
 
-=======
 x = 0.0
 print((3*(x*x*x)-2*(x*x)+(3*x)-1), end="\n\n")
 
@@ -44,4 +43,3 @@ end_minutes = (given_minutes + duration) % 60
 print(f"End Time {end_hour}:{end_minutes}")
 
 
->>>>>>> origin/main
