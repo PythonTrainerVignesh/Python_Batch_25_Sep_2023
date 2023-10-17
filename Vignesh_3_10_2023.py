@@ -142,3 +142,21 @@ while count < 5:
     average = average + no
 print(average // 5)
 
+count = 0
+while True:
+    count = count + 1
+    name = input('Enter username: ')
+    if name == 'admin':
+        count = 0
+        passwd_count = 0
+        while passwd_count < 3:
+            passwd_count = passwd_count + 1
+            passwd = input('Enter password: ')
+            if passwd == 'admin':
+                print('login successful.')
+                break
+            else:
+                print('Incorrect password.')
+    if count == 3:
+        print('Too manny attempts. Try again after sometime.')
+        break
