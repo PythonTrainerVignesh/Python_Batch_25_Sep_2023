@@ -201,3 +201,23 @@ no_dict['name'] = 'vignesh'
 print(no_dict)
 # print(no_dict)
 print()
+
+uname_list = []
+
+
+def register(uname, passwd, confirm_passwd):
+    if uname.capitalize() not in uname_list:
+        if passwd == confirm_passwd:
+            print(f"Welcome {uname}.")
+            uname_list.append(uname.capitalize())
+        else:
+            print(f"Password mismatch.")
+    else:
+        print(f"{uname} already exist.")
+
+
+register("Ganesh", "pass123", "pass123")
+register("Python", "pass123", "pass123")
+register("Guest", "pass123", "pass123")
+print(uname_list)
+
