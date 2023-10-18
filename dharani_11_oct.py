@@ -125,12 +125,77 @@
 
 # next one
 
-start = int(input("Enter a number to start: "))
-stop = int(input("Enter a number to stop: "))
-while True:
-    #    print(start, end=', ')
-    start = start - 1
-    if start <= stop:
-        break
-    else:
-        print(start, end=', ')
+# start = int(input("Enter a number to start: "))
+# stop = int(input("Enter a number to stop: "))
+# while True:
+#     #    print(start, end=', ')
+#     start = start - 1
+#     if start <= stop:
+#         break
+#     else:
+#         print(start, end=', ')
+
+#  DATE :- 13/10/23.
+# While-else loop.
+
+# num = int(input("Enter the number: "))
+#
+# while num < 10:
+#     num = num + 2
+#     print(num)
+# else:
+#     print("Program Exiting....")
+
+# count = 0
+# while True:
+#     count = count + 1
+#     user_name = input("Enter user_name: ")
+#     pass_count = 0
+#     if user_name == 'admin':
+#         count = 0
+#         while pass_count < 3:
+#             pass_count = pass_count + 1
+#             password = input("Enter password: ")
+#             if password == 'admin':
+#                 print("Login Successful.")
+#     if count > 4:
+#         print("Too many attempts. Please try again sometime later.")
+#         break
+
+# next one
+# count = 0
+# c0 = int(input("Enter a number which is non-negative and non-zero integers: "))
+# while c0 != 1:
+#     count = count + 1
+#     if c0 % 2 == 0:
+#         c0 = c0 // 2
+#         print(c0)
+#     else:
+#         c0 = 3 * c0 + 1
+#         print(c0)
+#         continue
+# print(f"steps = {count}")
+
+# n = 0
+# while n < 5:
+#     n = n + 1
+#     print("Hello World.")
+
+# n = 0
+# while True:
+#     n = n + 1
+#     if n <= 3:
+#         print("Hello World.")
+#     else:
+#         break
+
+# next one
+# num = int(input('Enter 5 numbers: '))
+
+count = 0
+average = 0
+while count < 5:
+    count = count + 1
+    no = int(input(f'{count}. Enter no: '))
+    average = average + 5
+print(average // 5)

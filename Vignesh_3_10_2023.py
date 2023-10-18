@@ -142,3 +142,62 @@ while count < 5:
     average = average + no
 print(average // 5)
 
+count = 0
+while True:
+    count = count + 1
+    name = input('Enter username: ')
+    if name == 'admin':
+        count = 0
+        passwd_count = 0
+        while passwd_count < 3:
+            passwd_count = passwd_count + 1
+            passwd = input('Enter password: ')
+            if passwd == 'admin':
+                print('login successful.')
+                break
+            else:
+                print('Incorrect password.')
+    if count == 3:
+        print('Too many attempts. Try again after sometime.')
+        break
+
+
+word = "I'm learning python"  #iterable
+
+for no in range(1, 13):
+    print(f"2 x {no} = {2*no}")
+
+word = "United States of America"  # iterable
+
+count_s = 0
+count_i = 0
+for i in word:
+    if i.lower() == 's':
+        count_s = count_s + 1
+    elif i.lower() == 'i':
+        count_i = count_i + 1
+    else:
+        continue
+print(f"The no of s in {word} is {count_s}.", f"The no of i in {word} is {count_i}.", sep='\n')
+
+
+no_tuple = (1, 2, 3, 4, 5, 6)  # Immutable
+no_list = [1, 2, 3, 4, 5, 6, 'dgddf', [0, 5, 8, 90], {"": ""}]  # Mutable
+no_dict = {"fruit1": "Apple",
+           "fruit2": "Mango",
+           "fruit3": "Banana",
+           "email": "vignesh@fita.in",
+           "phone_no": "8056195179",
+           }  # Key-Value pairs
+
+print(no_tuple[5])
+# no_tuple[5] = 10
+
+print(no_list)
+no_list.reverse()
+print(no_list)
+
+no_dict['name'] = 'vignesh'
+print(no_dict)
+# print(no_dict)
+print()

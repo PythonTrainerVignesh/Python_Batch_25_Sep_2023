@@ -26,6 +26,10 @@ PEP 8 - format we r using for style guidelineS for PYTHON
 
  
 
+no_tuple = (1, 2, 3, 4, 5, 6) #Immutable
+no_list = [1, 2, 3, 4, 5, 6] #Mutable
+no_dict = {1, 2, 3, 4, 5, 6} 
+
 
 
 
