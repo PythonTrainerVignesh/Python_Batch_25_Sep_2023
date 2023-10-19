@@ -24,7 +24,8 @@ dict = {"flowers":"jasmine",
         "chocolates":"dairy milk"} #key-value pairs
 print(tuple[4])
 print(dict)
-print(list)
-print(list[4])
-list[4].replace = 9
-print(dict.keys())
+list[4] = 9
+print(list[4].insert())
+# list[4].insert = 9
+# print(dict.pop())
+# print(list.insert)
