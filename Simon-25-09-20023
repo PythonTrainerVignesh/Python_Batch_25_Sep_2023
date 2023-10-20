@@ -16,5 +16,25 @@ cd short form of change drectory
 cd .. is short form of backforword
 more   short form of reading inside the file
 git commit -m "done"<filr name> some changes in localdisk
-git push changes some message nad updated to GitHubgit pull is used to finally updated to view the github
+git push changes some message nad updated to GitHub
+git pull is used to finally updated to view the github
 
+
+
+print("HELLO WORLD")
+print(33+33)
+print(22-22)
+print(4*4)
+print(4/23)
+print(34.43)
+print(32>34)
+print(22<22 ,end=" ")
+print("the end")
+
+# print is function
+# tow types of arguement
+ #position argument
+ #keyword argument
+#position argument using (,)
+#keyword argument using two types
+     #separate("one","two")  #end

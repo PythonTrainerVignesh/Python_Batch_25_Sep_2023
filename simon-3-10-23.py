@@ -142,3 +142,116 @@ if age <=18:
     print(f"{age}your not eligible to vote" )
 else:
     print(f"{age}your eligible to vote")
+
+
+
+age = input('Enter your age: ')
+
+if age.isdigit():
+    if int(age) >= 18:
+        License = input('Do you have a license (yes/no): ')
+        if License == 'yes':
+            print('You are eligible to drive.')
+        elif License == 'no':
+            LLR = input('Do you have LLR (yes/no): ')
+            if LLR == 'yes':
+                print('You are eligible to drive with a pillion rider.')
+            elif LLR == 'no':
+                print('You are not eligible to drive. Go & apply for a LLR first.')
+            else:
+                print('Invalid input.')
+        else:
+            print('Invalid input.')
+    else:
+        print('You are not eligible.')
+else:
+    print('Invalid input.')
+
+
+# Find average of 5 nos
+count = 0
+average = 0
+while count < 5:
+    count = count + 1
+    no = int(input(f'{count}: Enter no: '))
+    average = average + no
+print(average // 5)
+
+count = 0
+while True:
+    count = count + 1
+    name = input('Enter username: ')
+    if name == 'admin':
+        count = 0
+        passwd_count = 0
+        while passwd_count < 3:
+            passwd_count = passwd_count + 1
+            passwd = input('Enter password: ')
+            if passwd == 'admin':
+                print('login successful.')
+                break
+            else:
+                print('Incorrect password.')
+    if count == 3:
+        print('Too many attempts. Try again after sometime.')
+        break
+
+
+word = "I'm learning python"  #iterable
+
+for no in range(1, 13):
+    print(f"2 x {no} = {2*no}")
+
+word = "United States of America"  # iterable
+
+count_s = 0
+count_i = 0
+for i in word:
+    if i.lower() == 's':
+        count_s = count_s + 1
+    elif i.lower() == 'i':
+        count_i = count_i + 1
+    else:
+        continue
+print(f"The no of s in {word} is {count_s}.", f"The no of i in {word} is {count_i}.", sep='\n')
+
+
+no_tuple = (1, 2, 3, 4, 5, 6)  # Immutable
+no_list = [1, 2, 3, 4, 5, 6, 'dgddf', [0, 5, 8, 90], {"": ""}]  # Mutable
+no_dict = {"fruit1": "Apple",
+           "fruit2": "Mango",
+           "fruit3": "Banana",
+           "email": "vignesh@fita.in",
+           "phone_no": "8056195179",
+           }  # Key-Value pairs
+
+print(no_tuple[5])
+# no_tuple[5] = 10
+
+print(no_list)
+no_list.reverse()
+print(no_list)
+
+no_dict['name'] = 'vignesh'
+print(no_dict)
+# print(no_dict)
+print()
+
+uname_list = []
+
+
+def register(uname, passwd, confirm_passwd):
+    if uname.capitalize() not in uname_list:
+        if passwd == confirm_passwd:
+            print(f"Welcome {uname}.")
+            uname_list.append(uname.capitalize())
+        else:
+            print(f"Password mismatch.")
+    else:
+        print(f"{uname} already exist.")
+
+
+register("Ganesh", "pass123", "pass123")
+register("Python", "pass123", "pass123")
+register("Guest", "pass123", "pass123")
+print(uname_list)
