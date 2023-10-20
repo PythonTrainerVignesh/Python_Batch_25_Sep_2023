@@ -22,10 +22,3 @@ list = [0,1,2,3,4,5,6, [8,8,0,7,9],{"":""}] #mutable it will change
 dict = {"flowers":"jasmine",
         "fruits":"apple",
         "chocolates":"dairy milk"} #key-value pairs
-print(tuple[4])
-print(dict)
-list[4] = 9
-print(list[4].insert())
-# list[4].insert = 9
-# print(dict.pop())
-# print(list.insert)
