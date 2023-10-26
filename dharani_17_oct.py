@@ -110,21 +110,21 @@
 # else:
 #     print(f"{number} is a prime number.")
 # _______________ FInd the no of prime numbers in given numbers?
-
-numb = int(input("Enter a non negative and non zero integer: "))
-
-prime_numbers = []
-
-for num in range(2, numb + 1):
-    is_prime = True
-    for i in range(2, num):  # range(2, int(num ** 0.5) + 1)
-        if (num % i) == 0:
-            is_prime = False
-            break
-    if is_prime:
-        prime_numbers.append(num)
-
-print(f"Prime numbers below {numb} are: {prime_numbers}")
+#
+# numb = int(input("Enter a non negative and non zero integer: "))
+#
+# prime_numbers = []
+#
+# for num in range(2, numb + 1):
+#     is_prime = True
+#     for i in range(2, num):  # range(2, int(num ** 0.5) + 1)
+#         if (num % i) == 0:
+#             is_prime = False
+#             break
+#     if is_prime:
+#         prime_numbers.append(num)
+#
+# print(f"Prime numbers below {numb} are: {prime_numbers}")
 
 # ________________-__FUNCTIONS:-
 
@@ -148,3 +148,6 @@ print(f"Prime numbers below {numb} are: {prime_numbers}")
 # register("Ganesh", "pass@123", "pass@123")
 # register("Dharani", "pass@123", "pass123")
 # print(uname_list)
+
+# ______For the strings places to get slicing [start:end:step]__________________________________
+# positions can be reversing using "-ve int".
