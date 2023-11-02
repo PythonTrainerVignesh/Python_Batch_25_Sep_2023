@@ -51,3 +51,17 @@ sequence type=strings,tuple,list
 
 #positional arguments&key word arguments
 #print("hello world")print is function hello world is positional argument
+
+
+TODAY:2/11/23
+#@static method - where the data is constant for all the instances
+#@class method - where the data is dynamic (changing)in nature for all the instances
+#FOUR PILLARS OF OOP:
+1)inheritance it has single,multiple,multi_level,hierarchial,hybrid inheritances.
+2)polymorphism-it has many shapes(CustomMail)->length function
+->polymorphism same method but different outputs.
+3)encapsulation ->it has two types:
+->protected variables (_)
+->private variables(__)
+->process of hiding methods and variables from accidental modificationi scalled encapsulation.
+4)abstraction -it is the process of hiding the real implementation of an application from the user and emphazsing only how to use the application.
