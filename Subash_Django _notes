@@ -1,0 +1,9 @@
+Django Framework
+
+MVT Model
+
+M = Models (Database)
+V = Views (All your functions and logics)
+T = Templates (All your static contents like html, css, js, images, etc etc)
+
+App = page_functionality
