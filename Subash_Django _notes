@@ -1,0 +1,15 @@
+Django Framework
+
+MVT Model
+
+M = Models (Database)
+V = Views (All your functions and logics)
+T = Templates (All your static contents like html, css, js, images, etc etc)
+
+App = page_functionality
+TCP = 65535
+UDP = 65535
+
+IP & PORT
+OSI Moden
+URL & URI
