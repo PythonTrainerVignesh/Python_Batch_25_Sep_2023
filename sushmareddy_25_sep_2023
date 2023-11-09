@@ -65,3 +65,27 @@ TODAY:2/11/23
 ->private variables(__)
 ->process of hiding methods and variables from accidental modificationi scalled encapsulation.
 4)abstraction -it is the process of hiding the real implementation of an application from the user and emphazsing only how to use the application.
+
+TODAY:8/11/23
+TOPIC:django
+1)what is django?
+  django is a framework
+2)what is mvt?
+  m--models(database)
+  v--views(all your functions and logics)
+  t--templates(all your static contents like html,css,js,image etc)
+3)what is django app?
+  django app means index page
+4)app = page_functionality
+  TCP.65535
+  UDP.65535
+5)net working concepts:
+ osi -- model
+ ip address
+ port numbers
+
+ --->to open django in terminal
+     django-admin startproject website
+ ---->to open scrapy project in python
+      python scrapy startproject tutorial
+ ----->in django python mange.py runserver 80 it opens in chrome.
