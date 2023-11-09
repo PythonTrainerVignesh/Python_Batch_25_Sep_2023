@@ -88,4 +88,4 @@ TOPIC:django
      django-admin startproject website
  ---->to open scrapy project in python
       python scrapy startproject tutorial
- ----->in django python mange.py runserver 80 it opens in chrome.
+ ----->in django python mange.py runserver 80 it opens in chrome..
