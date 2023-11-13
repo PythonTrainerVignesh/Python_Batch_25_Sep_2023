@@ -15,7 +15,7 @@ dir short form of read folader
 cd short form of change drectory
 cd .. is short form of backforword
 more   short form of reading inside the file
-git commit -m "done"<filr name> some changes in localdisk
+git commit -m "done"<file name> some changes in localdisk
 git push changes some message nad updated to GitHub
 git pull is used to finally updated to view the github
 
