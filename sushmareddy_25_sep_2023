@@ -89,3 +89,18 @@ TOPIC:django
  ---->to open scrapy project in python
       python scrapy startproject tutorial
  ----->in django python mange.py runserver 80 it opens in chrome..
+django-admin
+pip install django.
+  django-admin startproject website.
+in django python mange.py runserver 80 it opens in chrome..
+python manage.py makemigrations appname
+python manage.py migrate appname
+settings.py-->templates-->update template directory
+{% include 'index.html' %}
+{% extends 'index.html' %}
+ CRUD--Create, Read,,Update,Delete
+python manage.py createsuperuser
+
+
+
+
